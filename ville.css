@@ -1,0 +1,89 @@
+body{
+  font-family: dosis,sans-serif;
+}
+#carte{
+
+    margin right: 35%;
+    margin-left: 35%;
+    padding: 15px;
+    height: 475px;
+    width: 300px;
+    display: inline-block;
+}
+
+#photo {
+  text-align: center;
+  width: 800px;
+  height: 800px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#logo
+{
+  width: 450px;
+  height: 150px;
+}
+
+ul {
+ padding:50px;
+ padding: 0;
+ margin:0;
+ margin-right: 20px;
+ margin-left: 20px;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;
+ width:100px;
+ background-color:#CCCCCC;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ }
+
+ #header2
+ {
+display:block;
+margin:auto;
+position:relative;
+width:700px;
+}
+
+.background
+{
+  font-family: verdana;
+  width: 1350px;
+  height: 100px;
+  background-color: red;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  line-height: inherit;
+  padding-top: 30px
+}
+p{
+  text-align: center;
+}
+#header4
+{
+  height:80px;
+  color: white;
+  background: #772B2F; /* sa ces le footer qui vien tout en bas de la page*/
+}
